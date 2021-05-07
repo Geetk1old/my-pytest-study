@@ -5,7 +5,7 @@ import  os
 
 options=webdriver.ChromeOptions()
 #chrome浏览器的文件位置
-options.binary_location="C:/Program Files/Google/Chrome/Applications/chrome.exe"
+options.binary_location="C:/Program Files/Google/Chrome/Application/chrome.exe"
 #浏览器驱动地址
 chrome_driver_binary="C:/Program Files/Google/Chrome/Application/chromedriver.exe"
 driver=webdriver.Chrome(chrome_driver_binary, chrome_options=options)
