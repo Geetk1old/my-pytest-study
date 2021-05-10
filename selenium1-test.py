@@ -5,9 +5,9 @@ import os
 
 options = webdriver.ChromeOptions()
 # 这里是浏览器可执行文件的地址
-options.binary_location = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+options.binary_location = "C:/Program Files/Google/Chrome/Application/chrome.exe"
 # 这里是浏览器驱动：chromedriver的下载地址
-chrome_driver_binary = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe"
+chrome_driver_binary = "C:/Program Files/Google/Chrome/Application/chromedriver.exe"
 driver = webdriver.Chrome(chrome_driver_binary, chrome_options=options)
 class TestCase():
     def setup_class(self):
